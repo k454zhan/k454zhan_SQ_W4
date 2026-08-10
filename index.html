@@ -3,15 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Week 4 Example 2 — Rock Paper Scissors Best of 3</title>
+    <title>Cold or Hot — Interactive Story</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
 
-    <!-- Load game files in order — game logic first, then drawing, then main -->
-    <!-- The order matters: sketch.js uses functions from game.js and scenes.js -->
-    <!-- so those must be loaded before sketch.js -->
+    <!-- Game state and navigation must load before the scene definitions. -->
     <script src="game.js"></script>
-    <script src="scenes.js"></script>
+
+    <!-- Shared scene drawing helpers. -->
+    <script src="scenes/sceneHelpers.js"></script>
+
+    <!-- One JavaScript file for every image-backed scene. -->
+    <script src="scenes/startScene.js"></script>
+    <script src="scenes/coldHintScene.js"></script>
+    <script src="scenes/iceLeftScene.js"></script>
+    <script src="scenes/iceRightScene.js"></script>
+    <script src="scenes/hotChoiceScene.js"></script>
+    <script src="scenes/hotHintScene.js"></script>
+    <script src="scenes/hotStoveScene.js"></script>
+    <script src="scenes/endingThreeScene.js"></script>
+    <script src="scenes/endingTwoScene.js"></script>
+    <script src="scenes/endingFiveColdScene.js"></script>
+    <script src="scenes/endingOneScene.js"></script>
+    <script src="scenes/endingZeroScene.js"></script>
+    <script src="scenes/endingFiveHotScene.js"></script>
+    <script src="scenes/endingFiveStoveScene.js"></script>
+    <script src="scenes/endingFourScene.js"></script>
+
+    <!-- p5 lifecycle functions load last. -->
     <script src="sketch.js"></script>
   </head>
   <body></body>

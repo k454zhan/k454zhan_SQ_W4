@@ -1,10 +1,10 @@
-# Week 4 Example 2: Rock Paper Scissors Best of 3
+# Week 4 Side Quest
 
 ## Setup and Interaction Instructions
 
 To run the sketch locally, open `index.html` in Google Chrome using Live Server.
 
-Click **Start Game** to begin. Click **Rock**, **Paper**, or **Scissors** each round. First to win 2 rounds wins the game. Click **Play Again** to rematch.
+Click the left or right half of each scene to choose that option. Continue until you reach an ending, then click once more to return to the beginning.
 
 **Opening the Chrome Console**
 
@@ -15,8 +15,10 @@ The console will show any errors in your sketch.
 
 ## Assets
 
-No external assets used. All visuals are generated with p5.js.
+| File                           | Source              |
+| ------------------------------ | ------------------- |
+| N/A (Image used in all screen) | morethanmeeples.com |
 
 ## References
 
-N/A
+[1] More Than Meeples. 2023. Wavelength Board Game [Photograph]. More Than Meeples. Retrieved August 7, 2026 from https://morethanmeeples.com.au/wp-content/uploads/2023/07/wavelength-board-game-03.jpg
