@@ -4,7 +4,7 @@
 
 To run the sketch locally, open `index.html` in Google Chrome using Live Server.
 
-Click the left or right half of each scene to choose that option. Continue until you reach an ending, then click once more to return to the beginning.
+Click the left or right half of each scene to choose that option. Continue until you reach an ending, then click restart to return to the beginning.
 
 **Opening the Chrome Console**
 
